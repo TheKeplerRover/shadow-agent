@@ -1,4 +1,4 @@
-# Shadow User Mirror
+# Shadow Agent
 
 A system design for a long-running user memory layer that AI agents can query before making decisions on a person's behalf.
 
