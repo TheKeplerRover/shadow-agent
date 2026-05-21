@@ -1,6 +1,8 @@
 # Shadow Agent
 
-Shadow is a user mirror system for AI agents.
+Shadow is a user-owned, local-first mirror system for AI agents.
+
+The design assumes explicit user consent, user-controlled data boundaries, and private-by-default storage. Sensitive signals such as conversations, device activity, or health data should only be collected when the user deliberately opts in, with clear retention, deletion, and audit controls.
 
 Its core thesis comes from this essay: [Why A2A Is Inevitable](https://alexlyu.com/blog/why-a2a-is-inevitable.html)
 
