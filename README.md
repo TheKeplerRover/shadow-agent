@@ -42,6 +42,14 @@ iPhone recording
 
 v0 is intentionally single-user. The goal is to prove the main chain before adding multi-user permissions, heavy knowledge graphs, or broad product packaging.
 
+## Agent Subsystems
+
+Shadow is meant to become the shared memory and context layer for a growing set of personal AI agents. Each subsystem agent should own and manage the context of its domain, while Shadow keeps the cross-agent user model coherent.
+
+- [personal-email-agent](https://github.com/TheKeplerRover/personal-email-agent): an Outlook email digest agent that manages inbox triage, redaction, daily/weekly brief generation, and email-domain context.
+
+Future work will focus more on context management: how multiple subsystem agents store domain-specific memory, decide what context to surface, and coordinate without collapsing everything into one oversized prompt.
+
 ## Documents
 
 - [PRD](PRD.md): product goals, scope, and success criteria
